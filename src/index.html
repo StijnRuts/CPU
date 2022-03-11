@@ -4,18 +4,30 @@
     <meta charset="utf-8"/>
     <title>Simcir</title>
 
-    <script type="text/javascript" src="simcirjs/simcir.js"></script>
     <link rel="stylesheet" type="text/css" href="simcirjs/simcir.css" />
-    <script type="text/javascript" src="simcirjs/simcir-basicset.js"></script>
     <link rel="stylesheet" type="text/css" href="simcirjs/simcir-basicset.css" />
-    <script type="text/javascript" src="simcirjs/simcir-library.js"></script>
+    <link rel="stylesheet" type="text/css" href="app.less" />
   </head>
   <body>
-    <div class="simcir">
-      {
-        "width":800,
-        "height":400
-      }
-    </div>
+    <section class="editor">
+      <div class="simcir">
+        {
+          "width":800,
+          "height":600
+        }
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="simcirjs/simcir.js"></script>
+    <script type="text/javascript" src="simcirjs/simcir-basicset.js"></script>
+    <script type="text/javascript" src="simcirjs/simcir-library.js"></script>
+
+    <script type="module" src="app.js"></script>
   </body>
 </html>
